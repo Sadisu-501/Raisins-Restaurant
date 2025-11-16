@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/about.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <title>ABOUT US</title>
+
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <nav class="nav body-padding">
+      <!-- Logo -->
+      <img class="logo" src="img/raisins-logo.jpg" alt="logo" />
+
+      <!-- An Overlay -->
+      <div id="overlay"></div>
+
+      <!-- Menu for Large screens -->
+      <div id="menu" class="menu">
+        <section id="menu-section">
+          <a class="menu-link" href="index.html">HOME</a>
+          <a class="menu-link" href="#food">MENU</a>
+          <a class="menu-link" href="#">ABOUT</a>
+        </section>
+        <!-- CTA -->
+        <a href="/get" class="cta"> Contact us </a>
+      </div>
+      <!-- Menu Btn -->
+      <ion-icon id="menu-btn" name="menu"></ion-icon>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <img
+        src="img/toast-3.png"
+        alt="Delicious toast at Raisins Bakery"
+        class="hero-image" />
+      <div class="hero-text">
+        <h1>About us</h1>
+        <p class="hero-info">
+          At Raisins Restaurant, Bakery & More, we believe great food brings
+          people together. From sunrise to sunset, our kitchen and ovens are
+          hard at work crafting delicious meals, fresh-baked goods, and
+          comforting classics that feel like home. Whether you're stopping by
+          for a hearty breakfast, a leisurely lunch, or a sweet treat to
+          brighten your day, Raisins is your neighborhood destination for
+          flavor, warmth, and community.
+        </p>
+        <a href="#testimonial" class="hero-btn">Testimonial</a>
+      </div>
+    </section>
+
+    <!-- hero text for mobile device -->
+    <div class="hero-mobile body-padding">
+      <p class="hero-info-2">
+        At Raisins Restaurant, Bakery & More, we believe great food brings
+        people together. From sunrise to sunset, our kitchen and ovens are hard
+        at work crafting delicious meals, fresh-baked goods, and comforting
+        classics that feel like home. Whether you're stopping by for a hearty
+        breakfast, a leisurely lunch, or a sweet treat to brighten your day,
+        Raisins is your neighborhood destination for flavor, warmth, and
+        community.
+      </p>
+    </div>
+
+    <!--image container-->
+    <div class="img-container body-padding">
+      <img src="img/ali.jpg" alt="staffs at work" />
+      <img src="img/post.jpg" alt="raisins sign post" />
+      <img src="img/post3.jpg" alt="outdoor view" />
+      <img src="img/post.jpg" alt="raisins sign post" />
+    </div>
+
+    <!--TESTIMONIAL VIDEO SECTION-->
+    <div id="testimonial" class="testimonial body-padding">
+      <h2>Testimonials <ion-icon name="videocam"></ion-icon></h2>
+    </div>
+
+    <div class="video-container body-padding">
+      <div class="video-card">
+        <video
+          src="vid/gift.mp4.mp4"
+          width="100%"
+          controls
+          poster="img/raisins-logo.jpg"
+          autoplay
+          muted
+          loop></video>
+      </div>
+
+      <div class="video-card">
+        <video
+          src="vid/neon.mp4.mp4"
+          width="100%"
+          controls
+          poster="img/raisins-logo.jpg"
+          autoplay
+          muted
+          loop></video>
+      </div>
+
+      <div class="video-card">
+        <video
+          src="vid/cream.mp4.mp4"
+          width="100%"
+          controls
+          poster="img/raisins-logo.jpg"
+          autoplay
+          muted
+          loop></video>
+      </div>
+    </div>
+
+
+    <!--footer section-->
+        <footer class="footer body-padding">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>Raisins Restaurant, Bakery & More</h2>
+          <div class="footer-text">
+            <p>RESTAURANT</p>
+            <p>BAKERY</p>
+            <p>CATERING</p>
+            <p>PARTY SPACE</p>
+          </div>
+        </div>
+
+        <div class="footer-social">
+          <a href="https://facebook.com" target="_blank" aria-label="Facebook"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://wa.me/" target="_blank" aria-label="WhatsApp"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+          <a href="https://www.tiktok.com" target="_blank" aria-label="TikTok"
+            ><i class="fab fa-tiktok"></i
+          ></a>
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Raisins Restaurant. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

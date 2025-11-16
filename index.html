@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raisins Restaurant</title>
+    <link rel="shortcut icon" href="img/raisins-logo.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
+    <!-- icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <nav class="nav body-padding">
+
+      <!-- Logo -->
+      <img class="logo" src="img/raisins-logo.jpg" alt="logo" />
+
+      <!-- An Overlay -->
+      <div id="overlay"></div>
+
+      <!-- Menu for Large screens -->
+      <div id="menu" class="menu">
+        <section id="menu-section">
+          <a class="menu-link" href="index.html">HOME</a>
+          <a class="menu-link" href="#food">MENU</a>
+          <a class="menu-link" href="about.html">ABOUT</a>
+        </section>
+        <!-- CTA -->
+        <a href="#footer" class="cta"> Contact us </a>
+      </div>
+      <!-- Menu Btn -->
+      <ion-icon id="menu-btn" name="menu"></ion-icon>
+      
+    </nav>
+      <a id="top"></a>
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <img
+        src="img/toast-3.png"
+        alt="Delicious toast at Raisins Bakery"
+        class="hero-image" />
+      <div class="hero-text">
+        <h1>Raisins Bakery</h1>
+        <p>Restaurant & More</p>
+        <p class="hero-info">
+          Come and Enjoy our serene and cozy environment, as we serve you
+          finger-licking dishes.
+        </p>
+
+        <a href="#food" class="hero-btn">View Menu</a>
+        <a href="#footer" class="hero-btn">Reservations</a>
+      </div>
+    </section>
+
+    <!-- Main body section -->
+    <main>
+
+      <!-- Food section -->
+        <div class="title">
+        <div>
+          <ion-icon name="fast-food"></ion-icon>
+        </div>
+        <h2>FOOD</h2>
+      </div>
+
+        <div id="food" class="food-card-container" >
+        <div class="food-card">
+          <img src="img/arabian.jpg" alt="Delicious Food" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Arabian Rice</h2>
+            <p class="food-quote">Made from rich arabian spices and beef</p>
+            <p class="food-price">&#8358;5,000</p>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <img src="img/jollof.jpg" alt="Delicious Food" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Jollof Rice</h2>
+            <p class="food-quote">Smoked jollof rice with a side of plantain</p>
+            <p class="food-price">&#8358;3,000</p>
+          </div>
+        </div>
+
+
+        <div class="food-card">
+          <img src="img/chi 2.jpg" alt="Delicious Food" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Chinese Rice</h2>
+            <p class="food-quote">Real chinese essence</p>
+            <p class="food-price">&#8358;4,500</p>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <img src="img/spag.jpg" alt="Delicious Food" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Vegetable Spaghetti</h2>
+            <p class="food-quote">Stir fry pasta</p>
+            <p class="food-price">&#8358;5,000</p>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <img src="img/poundo.jpg" alt="Delicious Food" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Poundo Yam</h2>
+            <p class="food-quote">Made from processed flour</p>
+            <p class="food-price">&#8358; 4,500</p>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <img src="img/eba.jpg" alt="Delicious Food" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Eba</h2>
+            <p class="food-quote">Made from the best Garri</p>
+            <p class="food-price">&#8358;4,500</p>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <img src="img/chicken cut.jpg" alt="Delicious Food" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Peppered Chicken</h2>
+            <p class="food-quote">Spicy chicken infused with sauce</p>
+            <p class="food-price">&#8358;2,500</p>
+          </div>
+        </div>
+
+          <div class="food-card">
+          <img src="img/tilapia.jpg" alt="Delicious Food" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Peppered Fish</h2>
+            <p class="food-quote">Spicy Tilapia fish infused with sauce</p>
+            <p class="food-price">&#8358;2,500</p>
+          </div>
+        </div>
+
+          <div class="food-card">
+          <img src="img/fatoush.jpg" alt="Delicious Food" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Fatoush salad</h2>
+            <p class="food-quote">Green vegetable salad</p>
+            <p class="food-price">&#8358;2,500</p>
+          </div>
+        </div>
+
+         <div class="food-card">
+          <img src="img/cole-slaw-recipe.jpg" alt="Delicious Food" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Coleslaw</h2>
+            <p class="food-quote"> traditional coleslaw salad</p>
+            <p class="food-price">&#8358;2,500</p>
+          </div>
+        </div>
+
+         <div class="food-card">
+          <img src="img/caesar.jpeg" alt="Delicious Food" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Caesar salad</h2>
+            <p class="food-quote">caesar vegetable salad</p>
+            <p class="food-price">&#8358;6,000</p>
+          </div>
+        </div>
+
+         <div class="food-card">
+          <img src="img/chicken-soup.jpg" alt="Delicious Food" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Chicken Soup</h2>
+            <p class="food-quote"> local chicken pepper soup</p>
+            <p class="food-price">&#8358;3,500</p>
+          </div>
+        </div>
+
+         <div class="food-card">
+          <img src="img/catfish.jpg" alt="catfish soup" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Cat Fish Soup</h2>
+            <p class="food-quote"> Cat fish pepper soup</p>
+            <p class="food-price">&#8358;3,500</p>
+          </div>
+        </div>
+
+         <div class="food-card">
+          <img src="img/waina.jpg" alt="Delicious Food" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Chicken Soup</h2>
+            <p class="food-quote"> Traditional waina with Taushe soup</p>
+            <p class="food-price">&#8358;3,500</p>
+          </div>
+        </div>
+
+         <div class="food-card">
+          <img src="img/chicken.jpg" alt="Delicious Food" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Grilled Chicken</h2>
+            <p class="food-quote"> open fire grilled chicken</p>
+            <p class="food-price">&#8358;8,500</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---CAKES SECTION-->
+    <section>
+      <div class="title">
+        <div>
+          <ion-icon name="fast-food"></ion-icon>
+        </div>
+        <h2>CAKES</h2>
+      </div>
+
+      <div class="food-card-container">
+
+        <div class="cake-card">
+          <img src="img/vanilla.jpg" alt="Delicious cake" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Vanilla Cake</h2>
+            <p class="food-quote">Made from rich arabian spices and beef</p>
+            <p class="food-price">&#8358;5,000</p>
+          </div>
+        </div>
+
+         <div class="cake-card">
+          <img src="img/Red-Velvet-Cake-Square.webp" alt="Delicious cake" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Red velvet Cake</h2>
+            <p class="food-quote"> creamy red velvet cake</p>
+            <p class="food-price">&#8358;5,000</p>
+          </div>
+        </div>
+
+         <div class="cake-card">
+          <img src="img/choco cake.jpeg" alt="Delicious cake" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Chocolate Cake</h2>
+            <p class="food-quote">creamy Chocolate Cake slice</p>
+            <p class="food-price">&#8358;5,000</p>
+          </div>
+        </div>
+
+         <div class="cake-card">
+          <img src="img/basbusa.jpg" alt="Delicious cake" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Basbusa</h2>
+            <p class="food-quote"> Creamy Basbusa Cake</p>
+            <p class="food-price">&#8358;5,000</p>
+          </div>
+        </div>
+
+         <div class="cake-card">
+          <img src="img/cheese.jpg" alt="Delicious cake" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Cheese Cake</h2>
+            <p class="food-quote">special cheese cake</p>
+            <p class="food-price">&#8358;5,000</p>
+          </div>
+        </div>
+
+         <div class="cake-card">
+          <img src="img/milkcake.jpg" alt="Delicious cake" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Milkcake Treleche</h2>
+            <p class="food-quote">Milk cake treleche cake</p>
+            <p class="food-price">&#8358;5,000</p>
+          </div>
+        </div>
+
+          <div class="cake-card">
+          <img src="img/muffins.jpg" alt="Delicious cake" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Muffins Cake</h2>
+            <p class="food-quote">chocolate muffins cake</p>
+            <p class="food-price">&#8358;5,000</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- SNACKS SECTON-->
+    <section>
+        <div class="title">
+        <div>
+         <ion-icon name="pizza"></ion-icon>
+        </div>
+        <h2>SNACKS</h2>
+      </div>
+
+      
+      <div class="food-card-container">
+        
+        <div class="food-card">
+          <img src="img/sandwich.jpg" alt="Delicious Food" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Sandwich</h2>
+            <p class="food-quote">Chicken or Tuna sandwich</p>
+            <p class="food-price">&#8358;3,000</p>
+          </div>
+        </div>
+
+            <div class="food-card">
+          <img src="img/samosa.jpg" alt="Delicious Food" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Samosa</h2>
+            <p class="food-quote">Chicken or beef samosa</p>
+            <p class="food-price">&#8358;3,000</p>
+          </div>
+        </div>
+
+            <div class="food-card">
+          <img src="img/springrolls.jpg" alt="Delicious Food" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Spring Rolls</h2>
+            <p class="food-quote">Chicken or Beef Spring rolls</p>
+            <p class="food-price">&#8358;3,000</p>
+          </div>
+        </div>
+
+            <div class="food-card">
+          <img src="img/meatpie.jpg" alt="Delicious Food" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Meatpie</h2>
+            <p class="food-quote">Baked Meatpie</p>
+            <p class="food-price">&#8358;700</p>
+          </div>
+        </div>
+
+            <div class="food-card">
+          <img src="img/burger.png" alt="Delicious Food" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Burger</h2>
+            <p class="food-quote">Chicken or Beef Burger</p>
+            <p class="food-price">&#8358;4,500</p>
+          </div>
+        </div>
+
+          <div class="food-card">
+          <img src="img/shawarma.jpg" alt="Delicious Food" class="food-image" />
+          <div class="food-info">
+            <h2 class="food-name">Shawarma</h2>
+            <p class="food-quote">Chicken or Beef Shawarma</p>
+            <p class="food-price">&#8358;2,800</p>
+          </div>
+        </div>
+      </div>
+     
+
+    <!--DRINKS SECTION-->
+    <section>
+        <div class="title">
+        <div>
+         <ion-icon name="cafe"></ion-icon>
+        </div>
+        <h2>DRINKS</h2>
+      </div>
+      <!--body container - Drinks section-->
+  
+      <div class="food-card-container">
+        
+        <div class="drink-card">
+          <img src="img/tigernut.jpg" alt="Natural drink" class="" />
+          <div class="food-info">
+            <h2 class="food-name">Tigernut</h2>
+            <p class="food-quote">Tigernut with no additivies or sugar</p>
+            <p class="food-price">&#8358;2,000</p>
+          </div>
+        </div>
+
+          <div class="drink-card">
+          <img src="img/mixed fruit.jpg" alt="Natural drink" class="" />
+          <div class="food-info">
+            <h2 class="food-name">Mixed Fruit</h2>
+            <p class="food-quote">mixed fruit with no additivies or sugar</p>
+            <p class="food-price">&#8358;2,000</p>
+          </div>
+        </div>
+
+          <div class="drink-card">
+          <img src="img/baobab.jpg" alt="Natural drink" class="" />
+          <div class="food-info">
+            <h2 class="food-name">Baobab</h2>
+            <p class="food-quote"> Baobab drink with no additivies or sugar</p>
+            <p class="food-price">&#8358;2,000</p>
+          </div>
+        </div>
+
+          <div class="drink-card">
+          <img src="img/pineapple.jpg" alt="Natural drink" class="" />
+          <div class="food-info">
+            <h2 class="food-name">Pineapple</h2>
+            <p class="food-quote">Pineapple drink with no additives or sugar</p>
+            <p class="food-price">&#8358;2,000</p>
+          </div>
+        </div>
+
+          <div class="drink-card">
+          <img src="img/tamarind.jpg" alt="Natural drink" class="" />
+          <div class="food-info">
+            <h2 class="food-name">Tamarind</h2>
+            <p class="food-quote">Original Tamarind flavored drink</p>
+            <p class="food-price">&#8358;1,000</p>
+          </div>
+        </div>
+
+ <div class="drink-card">
+          <img src="img/mint.jpg" alt="Natural drink" class="" />
+          <div class="food-info">
+            <h2 class="food-name">Mint</h2>
+            <p class="food-quote">Original Mint flavored drink</p>
+            <p class="food-price">&#8358;1000</p>
+          </div>
+        </div>
+
+         <div class="drink-card">
+          <img src="img/zobo.jpg" alt="Natural drink" class="" />
+          <div class="food-info">
+            <h2 class="food-name">Zobo</h2>
+            <p class="food-quote">Original Hisbicus flavored drink</p>
+            <p class="food-price">&#8358;1,000</p>
+          </div>
+        </div>
+
+              <div class="drink-card">
+          <img src="img/chapman.jpg" alt="Natural drink" class="" />
+          <div class="food-info">
+            <h2 class="food-name">Chapman</h2>
+            <p class="food-quote"> exotic chapman drink</p>
+            <p class="food-price">&#8358;2,500</p>
+          </div>
+        </div>
+
+              <div class="drink-card">
+          <img src="img/stawberry daquiri.png" alt="Natural drink" class="" />
+          <div class="food-info">
+            <h2 class="food-name">Strawberry Daquiri</h2>
+            <p class="food-quote">Strawberry Daquiri</p>
+            <p class="food-price">&#8358;4,500</p>
+          </div>
+        </div>
+
+              <div class="drink-card">
+          <img src="img/pineapple.jpg" alt="Natural drink" class="" />
+          <div class="food-info">
+            <h2 class="food-name">Pineapple</h2>
+            <p class="food-quote">Fresh pineapple juice</p>
+            <p class="food-price">&#8358;2,000</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+     <!--FOOTER SECTION-->s
+
+<footer id="footer" class="footer">
+  <div class="footer-content">
+    <div class="footer-logo">
+    
+       <h2>Raisins Restaurant, Bakery & More</h2>
+     <div class="footer-text">
+       <p>RESTAURANT</p>
+      <p>BAKERY</p>
+        <p>CATERING</p>
+      <p>PARTY SPACE</p>
+    
+     </div>
+    </div>
+
+
+    <div class="footer-social">
+<a href="https://facebook.com" target="_blank" aria-label="Facebook">
+  <ion-icon name="logo-facebook"></ion-icon>
+</a>
+<a href="https://wa.me/" target="_blank" aria-label="WhatsApp">
+  <ion-icon name="logo-whatsapp"></ion-icon>
+</a>
+<a href="https://www.tiktok.com" target="_blank" aria-label="TikTok">
+  <ion-icon name="logo-tiktok"></ion-icon>
+</a>
+<a href="https://instagram.com" target="_blank" aria-label="Instagram">
+  <ion-icon name="logo-instagram"></ion-icon>
+</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Raisins Restaurant. All rights reserved.</p>
+  </div>
+  <a href="#top" class="back-to-top"><ion-icon name="arrow-up-outline"></ion-icon></a>
+</footer>
+
+  </body>
+</html>
