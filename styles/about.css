@@ -255,7 +255,7 @@ ion-icon {
   padding: 40px 20px 20px;
   font-family: "Segoe UI", sans-serif;
   margin-top: 100px;
-  box-shadow: 15px 5px 5px 5px #f39c12;
+  position: relative;
 }
 
 .footer-content {
@@ -269,8 +269,8 @@ ion-icon {
 }
 
 .footer-logo h2 {
-  margin: 0px 20px 0 0;
-  font-size: 24px;
+  margin: 1rem auto;
+  font-size: 1.5rem;
   color: var(--orange-color);
 }
 .footer-text {
@@ -312,7 +312,25 @@ ion-icon {
   transform: scale(1.1);
   transition-delay: 200ms;
 }
-
+/* back to top button */
+.back-to-top {
+  position: absolute;
+  bottom: 3rem;
+  right: 3rem;
+  background-color: var(--menu-color);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+  z-index: 1000;
+}
+ion-icon:hover{
+  transform: translateY(-1px);
+  color: #fff;
+}
 /* Small devices (mobile) */
 @media (max-width: 480px) {
   .body-padding {
@@ -380,8 +398,8 @@ ion-icon {
   }
 
   .footer-logo h2 {
-    margin: 0px auto;
-    font-size: 1.2rem;
+    margin: 1rem auto;
+    font-size: 1rem;
   }
   .footer-text {
     gap: 1rem;
@@ -391,6 +409,15 @@ ion-icon {
   }
   ion-icon {
     font-size: 17px;
+  }
+  .back-to-top {
+    position: absolute;
+    bottom: 4rem;
+    right: 3rem;
+    color: orange;
+    padding: 0.1rem;
+    font-size: 0.2rem;
+    opacity: 0.8;
   }
 }
 
@@ -425,6 +452,15 @@ ion-icon {
   }
   .testimonial h2 {
     font-size: 1rem;
+  }
+  .back-to-top {
+    position: absolute;
+    bottom: 4rem;
+    right: 3rem;
+    color: orange;
+    padding: 0.1rem;
+    font-size: 0.2rem;
+    opacity: 0.8;
   }
 }
 /* Medium devices to Tablet sizes (tablets) */
@@ -480,6 +516,15 @@ ion-icon {
   }
   ion-icon {
     font-size: 18px;
+  }
+  .back-to-top {
+    position: absolute;
+    bottom: 4rem;
+    right: 3rem;
+    color: orange;
+    padding: 0.1rem;
+    font-size: 0.2rem;
+    opacity: 0.8;
   }
 }
 
@@ -575,6 +620,15 @@ ion-icon {
   .hero-btn {
     margin-top: 1.5rem;
     font-size: 1rem;
+  }
+  .back-to-top {
+    position: absolute;
+    bottom: 4rem;
+    right: 3rem;
+    color: orange;
+    padding: 0.1rem;
+    font-size: 0.2rem;
+    opacity: 0.8;
   }
 }
 
