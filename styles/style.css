@@ -51,6 +51,7 @@ a {
   font-size: 1.2rem;
 }
 
+/* navigation */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -119,6 +120,7 @@ ion-icon {
   transition: opacity 0.4s ease;
   z-index: 10;
 }
+
 /* hero-section */
 .hero {
   position: relative;
@@ -195,15 +197,19 @@ ion-icon {
   padding: 20px;
   margin: 4rem auto;
 }
+
 .title h2 {
   color: var(--food-name-color);
   font-size: 2rem;
 }
+
 .title ion-icon {
   color: var(--food-name-color);
   font-size: 3rem;
   margin-right: 5px;
 }
+
+/* Food card section */
 .food-card-container {
   display: grid;
   grid-template-columns: repeat(3, 300px);
@@ -345,6 +351,7 @@ ion-icon {
   transform: scale(1.1);
   transition-delay: 200ms;
 }
+/* Back to top arrow */
 .back-to-top {
   position: absolute;
   bottom: 3rem;
@@ -361,7 +368,7 @@ ion-icon {
 }
 ion-icon:hover {
   transform: translateY(-1px);
-  color: #fff;
+  color: #808080;
 }
 
 /* Small devices (mobile) */
@@ -374,19 +381,22 @@ ion-icon:hover {
     height: 2rem;
   }
   .hero img {
-    height: 50vh;
+    height: 60vh;
+  }
+  .hero {
+    height: 65vh;
   }
   .hero-text h1 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     letter-spacing: 1px;
   }
 
   .hero-text p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-top: 0;
   }
   .hero-text {
-    top: 31%;
+    top: 40%;
   }
   .hero-text .hero-info {
     color: var(--lighter-text-color);
@@ -400,6 +410,9 @@ ion-icon:hover {
   }
   .food-card-container {
     grid-template-columns: repeat(1, 300px);
+  }
+  .title {
+    margin: 1rem auto;
   }
   .footer-logo h2 {
     margin: 0px auto;
@@ -438,6 +451,9 @@ ion-icon:hover {
     font-size: 0.2rem;
     opacity: 0.8;
   }
+  .title {
+    margin: 1rem auto;
+  }
 }
 /* Medium devices to Tablet sizes (tablets) */
 @media (min-width: 481px) and (max-width: 768px) {
@@ -471,6 +487,9 @@ ion-icon:hover {
     padding: 0.1rem;
     font-size: 0.2rem;
     opacity: 0.8;
+  }
+  .title {
+    margin: 1rem auto;
   }
 }
 
@@ -563,6 +582,9 @@ ion-icon:hover {
     padding: 0.1rem;
     font-size: 0.2rem;
     opacity: 0.8;
+  }
+  .title {
+    margin: 2rem auto;
   }
 }
 

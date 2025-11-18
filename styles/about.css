@@ -37,7 +37,7 @@ a {
   text-decoration: none;
   color: var(--text-color);
 }
-
+/* navigation */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -72,16 +72,14 @@ ion-icon {
   font-size: 1.8rem;
   cursor: pointer;
 }
-
 /* CTA Button */
 .nav .cta {
   display: flex;
   align-items: center;
   column-gap: 10px;
   color: var(--text-color);
-  border-radius: var(--border-2);
+  border-radius: 2rem;
   background-color: rgba(12, 205, 90, 0.2);
-  background-color: trans;
   padding: 0.5rem 1.2rem;
 }
 
@@ -92,6 +90,11 @@ ion-icon {
   background-color: var(--dark-accent-color);
   transition: all 0.2s ease-in-out 100ms;
 }
+
+.back-to-top:hover {
+  opacity: 1;
+}
+
 /* Overlay */
 .nav #overlay {
   position: fixed;
@@ -327,9 +330,9 @@ ion-icon {
   transition: opacity 0.3s ease;
   z-index: 1000;
 }
-ion-icon:hover{
+ion-icon:hover {
   transform: translateY(-1px);
-  color: #fff;
+  color: #808080;
 }
 /* Small devices (mobile) */
 @media (max-width: 480px) {
@@ -354,12 +357,26 @@ ion-icon:hover{
     display: none;
   }
   .hero-text {
-    /* display: none; */
-    top: 31%;
+    top: 40%;
+  }
+
+  .hero img {
+    height: 60vh;
   }
   .hero {
-    margin-bottom: 0;
+    height: 65vh;
   }
+  .hero-text h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+  }
+
+  .hero-btn {
+    margin-top: 1rem;
+    padding: 0.5rem 5rem;
+    font-size: 1rem;
+  }
+
   .hero-mobile {
     background-color: var(--menu-color);
     border-radius: 5px;
@@ -377,11 +394,6 @@ ion-icon:hover{
     text-align: center;
     color: #eae4e4;
     display: block;
-  }
-  .hero-btn {
-    margin-top: 1rem;
-    padding: 0.5rem 5rem;
-    font-size: 1rem;
   }
 
   .img-container {
