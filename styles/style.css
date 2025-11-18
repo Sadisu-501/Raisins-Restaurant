@@ -412,7 +412,8 @@ ion-icon:hover {
     grid-template-columns: repeat(1, 300px);
   }
   .title {
-    margin: 1rem auto;
+    margin: 0 auto;
+    margin-bottom: 1rem;
   }
   .footer-logo h2 {
     margin: 0px auto;
@@ -452,7 +453,8 @@ ion-icon:hover {
     opacity: 0.8;
   }
   .title {
-    margin: 1rem auto;
+    margin: 0 auto;
+    margin-bottom: 1rem;
   }
 }
 /* Medium devices to Tablet sizes (tablets) */
@@ -531,6 +533,10 @@ ion-icon:hover {
 
   .nav #menu-btn {
     display: block;
+  }
+  .title {
+    margin: 0 auto;
+    margin-bottom: 1rem;
   }
 }
 
